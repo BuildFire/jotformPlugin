@@ -1,7 +1,7 @@
 {
   "author": "BuildFire",
   "pluginName": "JotForm",
-  "pluginDescription": "JotForm Plugin allows you to link to external forms, web pages and documents simply by entering the page's URL.",
+  "pluginDescription": "Effortlessly collect and manage data with JotForm's simplicity.",
   "supportEmail": "support@buildfire.com",
   "supportSite":"http://learn.appdocumentation.com/plugin-tutorials/jotform-plugin-tutorial/",
   "control": {
@@ -18,5 +18,31 @@
   "widget": {
   },
   "features": [],
-  "languages": ["en"]
+  "languages": ["en"],
+  "media": [
+    {
+      "type": "image-resource",
+      "path": "1-Plugin.png"
+    },
+    {
+      "type": "image-resource",
+      "path": "2-Benefits.png"
+    },
+    {
+      "type": "image-resource",
+      "path": "3-Use-Cases.png"
+    },
+    {
+      "type": "image-resource",
+      "path": "4-Content-Tab.png"
+    },
+    {
+      "type": "image-resource",
+      "path": "5-Analytics-Tab.png"
+    },
+    {
+      "type": "youtube-video",
+      "path": "https://www.youtube.com/watch?v=ZI321-IQ5nI"
+    }
+  ]
 }
