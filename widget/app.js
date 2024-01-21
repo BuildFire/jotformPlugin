@@ -9,6 +9,10 @@ function injectJotForm() {
         }
     }
     window.handleIFrameMessage = function (e) {
+        if (typeof e?.data !== 'string') {
+            console.warn(`Expected e.data to be a string, but received: ${typeof e?.data}`, e?.data);
+            return;
+        }
         var args = e.data.split(":");
 
         iframe = document.getElementById("JotFormIFrame");
