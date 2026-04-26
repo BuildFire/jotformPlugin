@@ -58,6 +58,7 @@ function injectJotForm() {
          * Fetch user's data from datastore
          */
         WidgetHome.init = function () {
+          buildfire.appearance.titlebar.show();
           WidgetHome.success = function (result) {
             if (result.data && result.id) {
               WidgetHome.data = result.data;
