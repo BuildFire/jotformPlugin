@@ -23,7 +23,7 @@ function injectJotForm() {
                 iframe.scrollIntoView();
                 break;
             case "setHeight":
-                iframe.style.height = args[1] + "px";
+                iframe.style.height = '100vh';
                 break;
             case "collapseErrorPage":
                 if (iframe.clientHeight > window.innerHeight) {
